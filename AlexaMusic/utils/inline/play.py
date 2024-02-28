@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="Owners", url=f"https://t.me/Usern4meDoesNotExist404"
+                text="Owners", url=f"https://t.me/arlozayden"
             ),
         ],
         [
@@ -84,14 +84,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="Owners", url=f"https://t.me/Usern4meDoesNotExist404"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/arlozayden"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
+            InlineKeyboardButton(text="Support", url=f"https://t.me/JooxSupport"),
         ],
     ]
     return buttons
@@ -107,14 +107,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="Info", url=f"https://t.me/SpotifyStreamMusic/64"),
+            InlineKeyboardButton(text="Info", url=f"https://t.me/JooxStream"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Owners", url=f"https://t.me/Usern4meDoesNotExist404"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/arlozayden"),
         ],
     ]
     return buttons
