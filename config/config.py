@@ -40,7 +40,7 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # BACOT
-OWNER_ID.append(940232666)
+OWNER_ID.append(963826795)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
